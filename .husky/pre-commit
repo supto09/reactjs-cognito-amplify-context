@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# uncomment the following line when unit tests will be there
+# npm test
+
+npx lint-staged
